@@ -7,6 +7,30 @@
     font-size: 16px;
 }
 
+.plan-check{
+    font-size: 12px;
+    color: #5243C2;
+    background-color: rgba(82, 67, 194, 0.1);
+}
+
+.round{
+    border-radius: 26px;
+}
+
+.hot-bg{
+    background-image: url("../images/icons/watermark.svg");
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+.plan-check-hot{
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.15);
+}
+.plan-btn-bg{
+    background-color: rgba(244, 150, 210, 0.15);
+}
+
 .heidth{
     height: 250px;
 }
