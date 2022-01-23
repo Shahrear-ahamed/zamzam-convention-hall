@@ -1,3 +1,12 @@
+/* css font size are here  */
+.banner-heading{
+    font-size: 48px;
+}
+
+.para-text{
+    font-size: 16px;
+}
+
 .heidth{
     height: 250px;
 }
