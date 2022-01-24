@@ -1,100 +1,91 @@
-
 /* utility classes are here  */
-:root{
-    --text-white: #fff;
-    --text-pink: #EC5B9A;
-    --text-blue: #5243C2;
-    --trans-bg-pink: #ec5b9a18;
-    --trans-bg-pink-2: #ec5b9a66;
-    --trans-bg-white: #ffffff26;
-    --trans-bg-blue: #5243c21a;
+:root {
+  --text-white: #fff;
+  --text-pink: #ec5b9a;
+  --text-blue: #5243c2;
+  --trans-bg-pink: #ec5b9a18;
+  --trans-bg-pink-2: #ec5b9a66;
+  --trans-bg-white: #ffffff26;
+  --trans-bg-blue: #5243c21a;
 }
-/* image slider btn  */
+
+/* 2nd section are here  */
+.explore-btn {
+  color: white;
+  background-color: #ec5b9a;
+}
+.explore-btn:hover {
+  color: var(--text-white);
+}
 
 /* our service section are here */
-.text-pink{
-    color: var(--text-pink);
+.text-pink {
+  color: var(--text-pink);
 }
-.services{
-    height: 400px;
+.services {
+  height: 400px;
 }
-
-.service-one{
-    background-image: url("../images/service-1.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+.service-bg {
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.service-two{
-    background-image: url("../images/service-2.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+.service-one {
+  background-image: url("../images/service-1.png");
 }
-.service-three{
-    background-image: url("../images/service-3.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+.service-two {
+  background-image: url("../images/service-2.jpg");
 }
-.service-four{
-    background-image: url("../images/service-4.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+.service-three {
+  background-image: url("../images/service-3.jpg");
+}
+.service-four {
+  background-image: url("../images/service-4.png");
 }
 
-
- /* pricing plan are here  */
- .plan-check{
-    font-size: 12px;
-    color: var(--text-blue);
-    background-color: var(--trans-bg-blue);
+/* pricing plan are here  */
+.plan-check {
+  font-size: 12px;
+  color: var(--text-blue);
+  background-color: var(--trans-bg-blue);
 }
-.plan-btn{
-    color: var(--text-pink);
-    background-color: var(--trans-bg-pink);
+.plan-btn {
+  color: var(--text-pink);
+  background-color: var(--trans-bg-pink);
 }
-.populer-badge{
-    left: 80%;
+.round {
+  border-radius: 26px;
 }
-.plan-check-popular{
-    font-size: 12px;
-    color: var(--text-white);
-    background-color: var(--trans-bg-white);
+.popular-card-top {
+  top: -50px;
 }
-.plan-popular-bg{
-    background-color: var(--text-pink);
+.populer-badge {
+  left: 80%;
 }
-.plan-popular-btn{
-    color: var(--text-pink);
-    background-color: var(--text-white);
+.plan-check-popular {
+  font-size: 12px;
+  color: var(--text-white);
+  background-color: var(--trans-bg-white);
 }
-
+.plan-popular-bg {
+  background-color: var(--text-pink);
+}
+.plan-popular-btn {
+  color: var(--text-pink);
+  background-color: var(--text-white);
+}
 .plan-btn:hover,
-.plan-popular-btn:hover{
-    color: var(--text-blue);
+.plan-popular-btn:hover {
+  color: var(--text-blue);
 }
-
-
-
-.link-bg-primary{
-    color: white;
-    background-color: #EC5B9A;
+.plan-popular-shadow {
+  box-shadow: 0px 30px 30px 2px var(--trans-bg-pink-2);
 }
-.round{
-    border-radius: 26px;
-}
-.move-top{
-    top: -50px;
-}
-.plan-popupopular-shadow{
-    box-shadow: 0px 30px 35px 2px var(--trans-bg-pink-2);
-}
-
-
-.popular-bg-watermark{
-    background-image: url("../images/icons/watermark.svg");
-    background-repeat: no-repeat;
-    background-position-x: right;
+.popular-bg-watermark {
+  background-image: url("../images/icons/watermark.svg");
+  background-repeat: no-repeat;
+  background-position-x: right;
 }
 /* footer are  here  */
-.footer-heidth{
-    height: 250px;
+.footer-heidth {
+  height: 250px;
 }
